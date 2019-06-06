@@ -1,1 +1,27 @@
-theme: jekyll-theme-cayman
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+
+# Setup
+title:               集群机器人规划与控制
+tagline:             'HomePage'
+description:         集群机器人规划与控制
+url:                 http://chekaiwei.github.io
+baseurl:             '/Cluster-Control'
+#baseurl:             'http://127.0.0.1:4000/'chekaiwei.github.io/Cluster-Control
+paginate:            5
+
+
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
+
+# Custom vars
+version:             1.0.0
+
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"

@@ -1,0 +1,47 @@
+---
+layout: default
+title: Home
+---
+<!--
+<div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ site.baseurl }}/{{ post.url }}">
+          {{ post.title }}
+          
+        </a>
+      </h1>
+  
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+  
+      {{ post.excerpt }}
+    </div>
+    {% endfor %}
+  </div>
+-->
+
+
+
+<div class="posts" >
+  {% for post in paginator.posts %}
+  <div class="post">
+    <!--<h1 class="post-title">
+      <a href="{{ site.baseurl }}/{{ post.url }}">
+        {{ post.title }}
+        
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+<iframe src="//player.bilibili.com/player.html?aid=50475895&cid=88349995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+    {{ post.excerpt }}-->
+    {{ post.content }}
+
+  </div>
+  {% endfor %}
+
+<iframe id=sbrxp src="//player.bilibili.com/player.html?aid=50475895&cid=88349995&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 640px; height: 430px; max-width: 100%"> </iframe> 
+</div>
+
